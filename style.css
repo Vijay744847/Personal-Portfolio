@@ -1,0 +1,130 @@
+.body {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section{
+  margin: 0px 20px;
+  border-radius: 20px;
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-position: center;
+}
+.banner{
+    background-image: url(/image/white.jpg);
+    padding: 230px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.stl{
+  color: rgb(0, 0, 0);
+  font-size: 27px;
+}
+#about{
+    background-image: url(/image/notes.jpg);
+    padding: 230px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#resume_1{
+    background-image: url(/image/light.jpg);
+    padding: 230px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#skill{
+    background-image: url(/image/skilllll.jpg);
+    padding: 230px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contact{
+    background-image: url(/image/leaf.jpg);
+    padding: 230px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#name {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+.navbar-toggler {
+    border: solid white 1px;
+    color: grey;
+}
+.nav-item{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-head{
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.about{
+    font-family: "Lobster", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: xx-large;
+}
+.resume{
+    font-family: "Lobster", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: xx-large;
+}
+.skills{
+    font-family: "Lobster", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: xx-large;
+}
+.contact{
+    font-family: "Lobster", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: xx-large;
+}
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffc107;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+.home-head{
+    position: relative;
+}
+.home-head::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0px;
+    left: 165px;
+    background-color: black;
+    transition: width 0.6s ease;
+}
+.home-head:hover::after{
+    width: 60%;
+}
+
+
+
